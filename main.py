@@ -89,4 +89,7 @@ option_5.grid(row=7, column=0, sticky=tk.E, pady=10)
 price_5 = ttk.Label(root, text="$0.00")
 price_5.grid(row=7, column=1)
 
+next_button_1 = ttk.Button(root, text="Next")
+next_button_1.grid(row=8, column=0, columnspan=2)
+
 root.mainloop()
